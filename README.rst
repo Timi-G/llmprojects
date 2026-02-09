@@ -95,3 +95,19 @@ New maintainers
 
 `LeapBeyond <http://leapbeyond.ai/>`_ are excited to be supporting scrubadub with ongoing maintenance and development.
 Thanks to all of the contributors who made this package a success, but especially `@deanmalmgren <https://github.com/deanmalmgren>`_, `IDEO <https://www.ideo.com/>`_ and `Datascope <https://datascopeanalytics.com/>`_.
+
+Running Tests Locally
+---------------------
+
+To run the test suite locally, first install the development dependencies::
+
+    pip install -r requirements/python-dev
+
+Then run the tests using the test runner::
+
+    python3 tests/run.py
+
+Alternatively, you can use Docker to run the tests in an isolated environment::
+
+    docker build -t scrubadub-tests .
+    docker run scrubadub-tests
