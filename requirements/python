@@ -1,0 +1,10 @@
+textblob==0.15.3
+argcomplete
+phonenumbers
+pandas
+sklearn
+typing_extensions
+wasabi
+python-stdnum
+faker
+dateparser @ git+https://github.com/scrapinghub/dateparser.git
